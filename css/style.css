@@ -111,8 +111,9 @@ nav a {
 }
 
 #projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .project {
@@ -121,7 +122,9 @@ nav a {
   align-items: center;
   padding: 1.5rem;
   height: 100%;
+  max-width: 20rem;
   color: rgb(243, 134, 48);
+  margin: 0;
 }
 
 .project-title {
