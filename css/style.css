@@ -158,3 +158,15 @@ nav a {
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+
+footer {
+  background-color: rgb(243, 134, 48);
+}
+
+footer p {
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 0;
+  color: rgb(224, 228, 204);
+  font-size: 1.25rem;
+}
