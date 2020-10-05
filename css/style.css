@@ -85,7 +85,7 @@ nav a {
 #about-me-paragraphs {
   display: flex;
   flex-flow: column wrap;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 #about-me-paragraph-one {
@@ -95,8 +95,8 @@ nav a {
 #selfie {
   border-radius: 0.5rem;
   margin-right: 5rem;
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
 }
 
 #tech-stack-header {
