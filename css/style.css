@@ -174,3 +174,34 @@ footer p {
   color: rgb(224, 228, 204);
   font-size: 1.25rem;
 }
+
+@media only screen and (max-width: 600px) {
+  #about-me-pic-and-text {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+  }
+
+  #selfie {
+    min-width: 75%;
+    padding: 2rem 0;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  #tech-stack-body {
+    padding: 0;
+  }
+
+  .project-description {
+    visibility: visible;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav a {
+    text-align: center;
+  }
+}
