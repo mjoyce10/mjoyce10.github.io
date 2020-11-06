@@ -134,6 +134,7 @@ nav a {
 .project-language {
   margin-top: 0;
   color: rgb(243, 134, 48);
+  text-align: center;
 }
 
 .project-description {
